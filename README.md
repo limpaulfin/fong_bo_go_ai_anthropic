@@ -23,17 +23,18 @@ Công cụ hỗ trợ gõ văn bản thông minh sử dụng Claude AI (Anthropi
 ## Cài đặt
 
 1. Tạo môi trường ảo:
-   python -m venv claude-env
+
+`python -m venv claude-env`
 
 2. Kích hoạt môi trường ảo:
 
 -   Windows:
-    claude-env\Scripts\activate
+    `claude-env\Scripts\activate`
 -   Linux/Mac:
-    source claude-env/bin/activate
+    `source claude-env/bin/activate`
 
 4. Tạo file `.env` và thêm API key:
-   ANTHROPIC_API_KEY=your_api_key_here
+   `ANTHROPIC_API_KEY=your_api_key_here`
 
 ## Cách sử dụng
 
@@ -53,6 +54,7 @@ Công cụ hỗ trợ gõ văn bản thông minh sử dụng Claude AI (Anthropi
 
 ## Cấu trúc thư mục
 
+```
 .
 ├── run_bo_go_claude.py # File chính
 ├── run_bo_go_claude.bat # File khởi chạy cho Windows
@@ -62,7 +64,7 @@ Công cụ hỗ trợ gõ văn bản thông minh sử dụng Claude AI (Anthropi
 ├── .env # File chứa API key
 └── logs/ # Thư mục chứa logs
 └── api_responses.jsonl
-
+```
 ## Tùy chỉnh
 
 -   Chỉnh sửa `my_prompt.md` để thay đổi persona và context
@@ -78,7 +80,7 @@ Công cụ hỗ trợ gõ văn bản thông minh sử dụng Claude AI (Anthropi
 
 ## Tác giả
 
-[Lam Thanh Phong IRONTAN Vietnam LTD.]
+[IRONTAN Vietnam LTD.]
 
 # Claude AI Typing Assistant
 
@@ -94,7 +96,7 @@ A smart text input assistant powered by Claude AI
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/claude-typing-assistant.git
+   `git clone https://github.com/yourusername/claude-typing-assistant.git`
 
 2. Install dependencies:
    pip install -r requirements.txt
@@ -102,15 +104,15 @@ A smart text input assistant powered by Claude AI
 3. Create virtual environment:
 
 -   Windows:
-    python -m venv claude-env
-    claude-env\Scripts\activate
+    `python -m venv claude-env`
+    `claude-env\Scripts\activate`
 
 -   Linux/Mac:
-    python -m venv claude-env
-    source claude-env/bin/activate
+    `python -m venv claude-env`
+    `source claude-env/bin/activate`
 
 4. Create `.env` file and add API key:
-   ANTHROPIC_API_KEY=your_api_key_here
+   `ANTHROPIC_API_KEY=your_api_key_here`
 
 ## Usage
 
@@ -130,6 +132,7 @@ A smart text input assistant powered by Claude AI
 
 ## Directory Structure
 
+```
 .
 ├── run_bo_go_claude.py # Main script
 ├── run_bo_go_claude.bat # Windows launcher
@@ -139,7 +142,7 @@ A smart text input assistant powered by Claude AI
 ├── .env # API key file
 └── logs/ # Log directory
 └── api_responses.jsonl
-
+```
 ## Customization
 
 -   Edit `my_prompt.md` to change persona and context
@@ -155,4 +158,4 @@ A smart text input assistant powered by Claude AI
 
 ## Author
 
-[Lam Thanh Phong IRONTAN Vietnam LTD.]
+[IRONTAN Vietnam LTD.]
