@@ -1,0 +1,33 @@
+# VS Code files
+.vscode/
+*.code-workspace
+.history/
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# System files
+.DS_Store
+Thumbs.db
+api_responses.jsonl
+token_stats.json
+logs/api_responses.jsonl
+logs/token_stats.json
+logs/*
